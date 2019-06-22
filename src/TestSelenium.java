@@ -11,7 +11,7 @@ public class TestSelenium {
         driver.get("https://portal.aait.edu.et/");
         System.out.println("Successfully opened the portal successfully");
         driver.findElement(By.id("UserName")).sendKeys("ATR/4668/09");
-        driver.findElement(By.id("Password")).sendKeys("1769");
+        driver.findElement(By.id("Password")).sendKeys("");
         driver.findElement(By.className("btn-success")).click();
 //        driver.findElement(By.className("glyphicon glyphicon-edit")).click();
 driver.findElements(By.className("dropdown-toggle")).get(1).click();
